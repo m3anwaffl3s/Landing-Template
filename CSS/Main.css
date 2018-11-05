@@ -1,0 +1,129 @@
+#div-form {
+   
+    background-color: #00838f;
+    border-radius: 2px;
+    align-content: center;
+    height: 590px;
+    max-height: 650px;
+    margin-right: 2%;
+    margin-top: 2%;
+
+    
+}
+
+#comments {
+    background-color:white;
+    height: 20%;
+    color: #00838f;
+}
+
+h3 {
+    color: white;
+    font-family: 'Arapey', serif;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+#slogan{
+    
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 50px;
+    text-align: center; 
+    color: #00838f;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#submit-button {
+    
+    background-color: white;
+    color: #00838f;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+
+
+
+.form-inputs {
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    color: #00838f;
+    text-align: center;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 2%;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  
+  .slide:nth-child(1) {
+    background: #D93B65;
+  }
+  
+  .slide:nth-child(2) {
+    background: #037E8C;
+  }
+  
+  .slide:nth-child(3) {
+    background: #36BF66;
+  }
+  
+  .slide:nth-child(4) {
+    background: #D9D055;
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+

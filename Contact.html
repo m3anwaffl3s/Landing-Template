@@ -23,45 +23,41 @@
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
               <li><a href="aboutPage.html">ABOUT</a></li>
-              <li><a href="Locations">LOCATIONS</a></li>
+              <li><a href="Locations">LOCATIONS</a></li>      
               <li><a href="servicePage.html">SERVICES</a></li>
               <li><a href="Contact.html">CONTACT</a></li>
           </ul>
         </div>
       </nav>
           <ul class="sidenav" id="mobile-nav">
-              <li><a href="About">ABOUT</a></li>
-              li><a href="Locations">LOCATIONS</a></li>
-              <li><a href="Services">SERVICES</a></li>
+              <li><a href="aboutPage.html">ABOUT</a></li>
+              <li><a href="Locations">LOCATIONS</a></li>
+              <li><a href="Services.html">SERVICES</a></li>
               <li><a href="Contact.html">CONTACT</a></li>
           </ul>
-    </div>
-
-    
-
-    <body class="grey lighten-2">
      
       
         <div class= row>
         <div class=row></div>
         <div class= row></div>
          
-      <div class="col s12 " id="div-form">
+      <div class="col m6 s12 " id="div-form">
         <h3 class="cyan darken-3">LET'S HEAR FROM YOU</h3>
           <form>
              <div class="container">
                 <div class="row">
                     <div >
-                      <input class="form-inputs" placeholder="First Name" id="first_name" type="text" class="validate">                
+                      <input class="form-inputs" placeholder="First Name" id="first_name" type="text">
+                                       
                     </div>
                     <div >
-                      <input class="form-inputs"  placeholder="Last Name"id="last_name" type="text" class="validate">                
+                      <input class="form-inputs"  placeholder="Last Name" id="last_name" type="text">                
                     </div>
                     <div>
-                        <input class="form-inputs"  id="e-mail" placeholder="Email"  type="email" class="validate">               
+                        <input class="form-inputs"  id="e_mail" placeholder="Email"  type="email" >               
                       </div>
                       <div>
-                        <input class="form-inputs"  id="phone-number" placeholder="Phone Number" type="tel" class="validate">               
+                        <input class="form-inputs"  id="phone_number" placeholder="Phone Number" type="tel" >               
                       </div>
                       <div class="row"></div>
                       <div>
@@ -69,7 +65,7 @@
                         </div>
                         <div class="row"></div> 
                         <div  class="center-align">
-                            <button id="submit-button" class="btn" type="submit" name="action">Submit
+                            <button id="submit_button" class="btn" type="submit" name="action">Submit
                                 <i class="material-icons right">send</i>
                               </button>
                         </div>           
@@ -81,7 +77,17 @@
           </div>
           </form>
         </div>
-
+        <div class="col m6" id="locationsDiv">
+        <div class="container">
+          <ul class="collection with-header">
+            <li class="collection-header"><h4>Carolina Construction</h4></li>
+            <li class="collection-item">Address: 1234 Wubba Lubba Rd. Wofford, SC 29202
+          </li>
+            <li class="collection-item">Phone Number: 804-664-6543</li>
+            <li class="collection-item">Email: contact@carolinaconstruction.com</li>
+          </ul>
+        </div>
+        </div>
         <footer class="cyan darken-3" class="page-footer">
           <div class="container">
             <div class="row">
@@ -118,7 +124,7 @@
         crossorigin="anonymous">
       </script>
       <script type="text/javascript" src="Scripts/materialize.min.js"></script>
-      <script type="text/javascript" src="./Scripts/Main.js"></script>
+      <script type="text/javascript" src="./Scripts/contact.js"></script>
       
             
 </html>

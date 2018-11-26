@@ -101,7 +101,62 @@ ul {
   color: #00838f
 }
 
- 
+#div-form {
+    
+    background-color: #00838f;
+    border-radius: 2px;
+    align-content: center;
+    height: 590px;
+    max-height: 650px;
+    margin-top: 2%;
+    margin-left: 25%;
+
+    
+}
+
+#comments {
+    background-color:white;
+    height: 20%;
+    color: #00838f;
+}
+
+h3 {
+    color: white;
+    font-family: 'Arapey', serif;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+
+
+
+
+#submit_button {
+    
+    background-color: white;
+    color: #00838f;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+
+
+
+.form-inputs {
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    color: #00838f;
+    text-align: center;
+}
 
   
 

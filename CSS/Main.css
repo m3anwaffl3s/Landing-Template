@@ -1,6 +1,8 @@
 
+#slideShow {
 
-
+    align-content: center;
+}
 
   #div-form {
    
@@ -74,13 +76,7 @@ textarea {
     text-align: center;
 }
 
-.slideShow {
 
-  
-  width: 89%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
   footer {
     position: auto;

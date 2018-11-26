@@ -7,20 +7,36 @@ $(document).ready(function(){
 
 /* Slide Show */ 
  
-var myIndex = 0;
-carousel();
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 3000);    
-}
+  /* Contact Form */
+
+var first_name = document.getElementById("first_name");
+var last_name = document.getElementById("last_name");
+var e_mail = document.getElementById("e_mail");
+var phone_number = document.getElementById("phone_number");
+var comments = document.getElementById("comments");
+var submit = document.getElementById("submit_button");
+var firstname = sessionStorage.getItem("firstname");
+
+    
+submit.onclick = function() {
+
+    window.sessionStorage.setItem("firstname", first_name.value);
+    window.sessionStorage.setItem("lastname",last_name.value);
+    window.sessionStorage.setItem("email",e_mail.value);
+    window.sessionStorage.setItem("phonenumber", phone_number.value);
+    window.sessionStorage.setItem("comments", comments.value);
+
+    firstname = sessionStorage.getItem("firstname");
+    last_name.innerHTML = sessionStorage.getItem("lastname");
+    e_mail.innerHTML = sessionStorage.getItem("email");
+    phone_number.innerHTML = sessionStorage.getItem("phonenumber");
+    comments.innerHTML = sessionStorage.getItem("comments");
+    submit.innerHTML = sessionStorage.getItem("submit");
 
   
 

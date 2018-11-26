@@ -38,7 +38,7 @@ submit.onclick = function() {
     comments.innerHTML = sessionStorage.getItem("comments");
     submit.innerHTML = sessionStorage.getItem("submit");
 
-  
+} 
 
 
 

@@ -57,6 +57,11 @@ submit.onclick = function() {
 
 } 
 
+/* Form: Drop Down */
+ 
+$('.dropdown-trigger').dropdown();
+
+
 
 
 

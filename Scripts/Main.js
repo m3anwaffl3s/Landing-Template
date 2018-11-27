@@ -8,22 +8,16 @@ $(document).ready(function(){
 /* Slide Show */ 
  
 $(document).ready(function(){
-        $('.carousel').carousel(
-        {
-          dist: 0,
-          padding: 0,
-          fullWidth: true, 
-          indicators: true,
-          duration: 100,
-        }
-        );
-      });
-      
-      autoplay()   
-      function autoplay() {
-          $('.carousel').carousel('next');
-          setTimeout(autoplay, 4500);
-      }
+  $('.carousel').carousel();
+
+//function for auto play carousel-slider
+
+setInterval(function(){
+  $('.carousel').carousel('next');
+
+ }, 2000);
+
+});
 
       
         

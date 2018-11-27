@@ -1,7 +1,6 @@
-
 #slideShow {
 
-    align-content: center;
+    background-color: #00838f;
 }
 
   #div-form {
@@ -49,22 +48,6 @@ h3 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
-#submit-button {
-    
-    background-color: white;
-    color: #00838f;
-    text-align: center;
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    
-    
-}
-
-
 
 .form-inputs {
     color: white;
@@ -154,5 +137,8 @@ textarea {
     text-align: center;
 }
 
-  
+
+#slideshow {
+    height: 300px;
+}
 

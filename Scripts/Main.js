@@ -7,10 +7,27 @@ $(document).ready(function(){
 
 /* Slide Show */ 
  
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
-  });
+$(document).ready(function(){
+        $('.carousel').carousel(
+        {
+          dist: 0,
+          padding: 0,
+          fullWidth: true, 
+          indicators: true,
+          duration: 100,
+        }
+        );
+      });
+      
+      autoplay()   
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 4500);
+      }
+
+      
+        
+        
 
   /* Contact Form */
 

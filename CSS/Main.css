@@ -1,6 +1,15 @@
-nav{
-    color:  #424242;
+
+#slogan{
+    
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 50px;
+    text-align: center; 
+    color: #00838f;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
   #div-form{
    
     background-color:#e0e0e0;
@@ -10,25 +19,34 @@ nav{
     max-height: 650px;
     margin-right: 2%;
     margin-top: 2%;
+    
 
     
-}
-
-#dropdown1{
-
-    background-color: #e0e0e0;
-    height: 20%;
-    color: #424242 f;
-}
+  }
 
 h3{
-    color: #424242 ;
+    color:#00838f ;
     font-family: 'Arapey', serif;
     font-size: 16px;
     text-align: center;
 
     
 }
+
+
+.dropdown-content {
+    
+    background-color: #e0e0e0 !important;
+    color:#00838f !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+
 
 .center{
   margin: 0;
@@ -40,8 +58,9 @@ h3{
 }
 
 .form-inputs{
-    color: #424242 ;
+    color: #00838f ;
     text-align: center;
+    
 }
 
 textarea{
@@ -63,18 +82,18 @@ textarea{
 }
 
 h5{
-  color: #424242;
+  color: #00838f;
 }
 
 ul{
-  color: #424242;
+  color: #00838f2;
 }
 
 
 #submit_button{
     
     background-color: #e0e0e0;
-    color: #424242;
+    color: #00838f;
     text-align: center;
     margin: 0 auto;
     margin-left: auto;
@@ -92,4 +111,69 @@ ul{
     height: 550px !important;
     margin-top: 2%;
 }
+
+/* Services */
+
+h2 {
+    color: #00838f; 
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 22px;
+    text-align: center;
+}
+
+#img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+#img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#statement {
+    color: #00838f; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+    #svslst {
+
+    color: #00838f; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    }
+
+    #list  {
+    color: #00838f; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    }
+
+    #colorBar {
+
+        background-color: #00838f;
+        height: 60px;
+        width: 100%;
+        
+    }
+
+    #workImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+    }
+
 

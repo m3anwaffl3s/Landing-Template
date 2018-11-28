@@ -15,7 +15,7 @@ $(document).ready(function(){
 setInterval(function(){
   $('.carousel').carousel('next');
 
- }, 2000);
+ }, 2500);
 
 });
 
@@ -55,7 +55,7 @@ submit.onclick = function() {
  
 $('.dropdown-trigger').dropdown();
 
-
+/* Services Dropdown */
 
 
 

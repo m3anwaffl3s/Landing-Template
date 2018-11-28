@@ -32,7 +32,49 @@ var phone_number = document.getElementById("phone_number");
 var comments = document.getElementById("comments");
 var submit = document.getElementById("submit_button");
 var firstname = sessionStorage.getItem("firstname");
-
+var dropdown1 = document.getElementById("dropdown1");
+var servicesList = ["Custom Homes", 
+                "Home Construction", 
+                "Multi-Family (4+ Units)", 
+                "New Construction", 
+                "Other New Construction", 
+                "Kitchen Addition", 
+                "Bathroom Addition", 
+                "Room Addition", 
+                "Other Additions",
+                "Multi-Room Remodel",
+                "Kitchen Remodel",
+                "Bathroom Remodel",
+                "Basement Remodel",
+                "Multi-Family (4+ Units) Remodeling",
+                "Other Remodeling",
+                "Office Renovation",
+                "Restaurant Renovation",
+                "Retail Renovation",
+                "Other Commercial Renovation",
+                "Roofing",
+                "Hardwood Flooring",
+                "Carpets",
+                "Laminate Flooring",
+                "Other Flooring",
+                "Framing",
+                "Fences",
+                "Backsplash and Countertops",
+                "Stonework",
+                "Tile Flooring",
+                "Other Stone and Tile",
+                "Drywall",
+                "Interior",
+                "PlasterBrick and Blockwork",
+                "Other Masonry",
+                "Foundations",
+                "Other Concrete",
+                "Paving", 
+                "Driveways and Sidewalks",
+                "Excavation and Grading",
+                "Other Site Work",
+                "Garage Construction",
+                "Gutters and Flashing Skylights"];
     
 submit.onclick = function() {
 
@@ -56,7 +98,6 @@ submit.onclick = function() {
 $('.dropdown-trigger').dropdown();
 
 /* Services Dropdown */
-
 
 
 

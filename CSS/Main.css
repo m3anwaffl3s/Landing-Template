@@ -110,6 +110,7 @@ ul{
 .carousel{
     height: 550px !important;
     margin-top: 2%;
+    align-content: center;
 }
 
 /* Services */

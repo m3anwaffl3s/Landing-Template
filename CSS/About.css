@@ -7,14 +7,14 @@
     border-radius: 2px;
 }
 
-h1 {
+#about {
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 50px;
     text-align: center; 
     color: #00838f;
 }
 
-p {
+#aboutP {
     color: #00838f;
     font-size: 24px;
     font-family: 'Nanum Gothic', sans-serif;

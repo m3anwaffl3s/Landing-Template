@@ -1,4 +1,4 @@
-
+/* Main Head */
 #slogan{
     
     font-family: 'Bilbo Swash Caps', cursive;
@@ -10,108 +10,21 @@
     
 }
 
-  #div-form{
-   
-    background-color:#e0e0e0;
-    border-radius: 2px;
-    align-content: center;
-    height: 590px;
-    max-height: 650px;
-    margin-right: 2%;
-    margin-top: 2%;
-    
-
-    
-  }
-
-h3{
-    color:#00838f ;
-    font-family: 'Arapey', serif;
-    font-size: 16px;
-    text-align: center;
-
-    
-}
-
-
-.dropdown-content {
-    
-    background-color: #e0e0e0 !important;
-    color:#00838f !important;
-    text-align: center;
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;    
-}
-
-
-
-.center{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.form-inputs{
-    color: #00838f ;
-    text-align: center;
-    
-}
-
-textarea{
-    color: #e0e0e0;
-    text-align: center;
-}
-
-
-
-  footer{
-    position: auto;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 20%;
-    background-color: red;
-    color:  #424242;
-    text-align: center;
-}
-
-h5{
-  color: #00838f;
-}
-
-ul{
-  color: #00838f2;
-}
-
-
-#submit_button{
-    
-    background-color: #e0e0e0;
-    color: #00838f;
-    text-align: center;
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    
-    
-}
-
-
 /* Carousel */
 
-.carousel{
+   .carousel{
     height: 550px !important;
     margin-top: 2%;
     align-content: center;
 }
+
+
+    #workImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+    }
 
 /* Services */
 
@@ -170,11 +83,99 @@ h2 {
         
     }
 
-    #workImg {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        float: right;
-    }
+ /* Contact */
+
+#contactHd{
+
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 50px;
+    text-align: center; 
+    color: #00838f;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+  #div-form {
+   
+    background-color:#e0e0e0;
+    border-radius: 2px;
+    align-content: center;
+    height: 590px;
+    max-height: 650px;
+    margin-right: 5%;
+    margin-left: 5%;
+
+  }
+    
+.dropdown-content {
+    
+    background-color: #e0e0e0 !important;
+    color:#00838f !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.form-inputs{
+    color: #00838f ;
+    text-align: center;
+    
+}
+
+textarea{
+    color: #e0e0e0;
+    text-align: center;
+}
+
+
+
+  footer{
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    color:  #424242;
+    text-align: center;
+}
+
+h5{
+  color: #00838f;
+}
+
+
+
+
+#submit_button{
+    
+    background-color: #e0e0e0;
+    color: #00838f;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+
+
 
 

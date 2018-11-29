@@ -32,7 +32,8 @@ var phone_number = document.getElementById("phone_number");
 var comments = document.getElementById("comments");
 var submit = document.getElementById("submit_button");
 var firstname = sessionStorage.getItem("firstname");
-var dropdown1 = document.getElementById("dropdown1");
+var services = document.getElementById("dropdown1");
+var timeFrameList = ["Immediatly", "1-6 months", "6 months - 1 year", "1-2 years"];
 var servicesList = ["Custom Homes", 
                 "Home Construction", 
                 "Multi-Family (4+ Units)", 
@@ -75,7 +76,19 @@ var servicesList = ["Custom Homes",
                 "Other Site Work",
                 "Garage Construction",
                 "Gutters and Flashing Skylights"];
-    
+
+servicesList.forEach(function(serviceObj){
+    var option = document.createElement("option");
+    var a = document.createElement("a");
+    a.innerHTML = serviceObj;
+    a.href = "#!"
+    a.setAttribute('class="grey lighten-2"')
+    Option.innerHTML = a;
+    timeFrame.appendChild(Option);
+});
+
+//<li><a href="#!" class="grey lighten-2" >Custom Home</a></li>
+
 submit.onclick = function() {
 
     window.sessionStorage.setItem("firstname", first_name.value);
